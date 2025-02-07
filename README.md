@@ -1,2 +1,2 @@
-# hardik-kgp.github.io
+# sunitwiz.github.io
 My portfolio website
