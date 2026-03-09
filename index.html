@@ -75,7 +75,7 @@
                   <div class="header-bio mt-3">
                     <div data-aos="zoom-in" data-aos-delay="0">
                       <h2 class="h1">Sunit Kumar Singha</h2>
-                      <p>Software Engineer | Electrical Student</p>
+                      <p>Senior Software Developer | IIT Kharagpur</p>
                     </div>
                     <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
                       <nav role="navigation">
@@ -94,7 +94,7 @@
                       </nav>
                     </div>
                     <div class="d-print-none"><a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3"
-                        href="Sunit_Kumar_Singha_Resume.pdf" data-aos="fade-right" data-aos-delay="700">Download
+                        href="Sunit_Kumar_Singha_Resume.pdf" download data-aos="fade-right" data-aos-delay="700">Download
                         CV</a><a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left"
                         data-aos-delay="700">Contact Me</a></div>
                   </div>
@@ -108,27 +108,28 @@
             <div class="row">
               <div class="col-md-6">
                 <h2 class="h2 fw-light mb-4">About Me</h2>
-                <p> Bonjour! I'm Sunit Kumar Singha, a passionate backend engineer with a knack for building scalable,
-                  high-performance systems. Currently, I’m an SDE II at SuperAGI, where I’m building autonomous agents
-                  and next-gen AI infrastructure. Prior to this, I was an SDE II at Honeywell, where I led the design
-                  and development of high-availability, enterprise-scale backend systems powering millions of seamless
-                  transactions daily.</p>
-                <p>I thrive in fast-paced environments where I can solve complex problems, learn continuously, and
-                  contribute to high-impact projects. My engineering mindset is rooted in collaboration, innovation, and
-                  a constant drive for growth—whether it's exploring new technologies, tackling architectural
-                  challenges, or learning from diverse perspectives.</p>
-                <p>Outside of work, I’m into gaming, music, and travel—always up for a deep conversation or a
-                  spontaneous adventure.</p>
-                <p>I hold a B.Tech (Hons.) in Electrical Engineering with a Micro-Specialization in Artificial
-                  Intelligence and Applications from the Indian Institute of Technology (IIT), Kharagpur, class of 2022.
-                </p>
+                <p>Hi, I’m Sunit Kumar Singha — a backend engineer focused on building scalable distributed
+                  systems and AI-powered infrastructure. I currently work as an SDE II at SuperAGI, where I build voice
+                  AI agents, large-scale outbound dialing systems, and conversational intelligence pipelines that
+                  process real-time and recorded call data.</p>
+                <p>My work primarily involves designing high-throughput backend services in Golang, integrating
+                  telephony platforms like Twilio and Plivo, and building event-driven microservices that support
+                  large-scale voice operations and analytics. I’ve worked on systems involving distributed locking,
+                  real-time speech processing, and scalable indexing pipelines for conversational data.</p>
+                <p>Previously, I was an SDE II at Honeywell, where I built and maintained backend microservices for
+                  the Forge Identity and Access Management platform, focusing on authentication systems, production
+                  observability, and database performance optimization.</p>
+                <p>I graduated from the Indian Institute of Technology (IIT) Kharagpur with a B.Tech in Electrical
+                  Engineering and a Micro-Specialization in Artificial Intelligence and Applications.</p>
+                <p>Outside work, I enjoy competitive programming, exploring new technologies, gaming, music, and
+                  traveling.</p>
               </div>
               <div class="col-lg-6 col-md-12">
                 <div class="card-body">
                   <div class="h4 mt-0 title">Basic Information</div>
                   <div class="row">
                     <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-                    <div class="col-sm-8">25</div>
+                    <div class="col-sm-8">28</div>
                   </div>
                   <div class="row mt-3">
                     <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
@@ -140,7 +141,7 @@
                   </div>
                   <div class="row mt-3">
                     <div class="col-sm-4"><strong class="text-uppercase">Research Interests:</strong></div>
-                    <div class="col-sm-8">Generative AI, AI-Driven DevOps & SRE, Natural Language Processing</div>
+                    <div class="col-sm-8">Generative AI, Voice AI Systems, Conversational Intelligence, Distributed Systems</div>
                   </div>
                 </div>
               </div>
@@ -160,14 +161,20 @@
                 </div>
                 <div class="timeline-body px-4 pb-4">
                   <div class="text-muted text-small mb-3">March, 2025 - Present</div>
-                  <div>Building core backend systems powering autonomous AI agents using Golang and Ruby on Rails.
-                    Focused on scalable microservices, optimized API integrations, and infrastructure-level enhancements
-                    to support real-time intelligent decision making.Developed comprehensive Twilio
-                    integration services enabling dynamic provisioning of phone numbers across multiple countries,
-                    supporting the platform's global expansion initiatives. Created a scalable abstraction layer to
-                    manage international number acquisition, compliance requirements, and regional messaging
-                    regulations. Built automated systems for number inventory management, ensuring cost-effective
-                    utilization of telephony resources across different geographical regions.</div>
+                  <div class="row g-0">
+                    <div class="col-md-6" data-aos="fade-right" data-aos-delay="100">
+                      <img class="img-fluid" src="VA.png" width="450" height="400" />
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="200">
+                      <div class="m-4 mt-md-2">
+                        <p>Introduced AI-powered Voice agents leveraging LLM-based intent detection, dynamic knowledge base integration, meeting booking via custom API integrations, and post-call analysis for lead qualification and in-call data extraction. Integrated agents with existing Twilio and Plivo numbers using Elastic SIP Trunking, enabling up to 20 concurrent AI-driven agent calls. Built a distributed dialer over Twilio and Plivo supporting Power, Parallel, and AI Voice Agent modes with TwiML-based call orchestration, Answering Machine Detection, and conference transfers; implemented Redis-based distributed locking and goroutine fan-out with an Asynq worker pipeline to scale campaign execution from 400 to 2,000+ daily calls (5x throughput).</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-aos="fade-up" data-aos-delay="300">
+                    <p>Built a Conversational Intelligence pipeline integrating Deepgram STT (Nova-3 for recordings and Nova-2 for real-time streaming) with multichannel speaker diarization and multi-language transcription, processing Twilio and Plivo call audio into speaker-attributed transcripts and enabling AI-driven call analysis with 95%+ transcription accuracy. Designed OpenSearch indexing architecture for Conversation Intelligence by replacing per-workspace indices with a shared environment-level index using 150 typed field slots (string, number, boolean), mapped via a PostgreSQL lookup table with Redis-cached resolution, eliminating cluster instability and significantly reducing infrastructure costs.</p>
+                    <p>Automated Twilio/Plivo compliance workflows using an event-driven microservices architecture, streamlining Regulatory Bundle, KYC, and 10DLC brand/campaign registrations for phone number activation across 60+ countries. Built webhook-driven approval orchestration, reducing provisioning time from 3 weeks to 1 week.</p>
+                  </div>
                 </div>
               </div>
 
@@ -178,10 +185,20 @@
                 </div>
                 <div class="timeline-body px-4 pb-4">
                   <div class="text-muted text-small mb-3">July, 2022 - Nov, 2024</div>
-                  <div>Developed and optimized key features in Honeywell Forge, enhancing enterprise-level
-                    authentication, role management, and cross-platform consistency. Improved API performance, reducing
-                    authentication response times by 35%, and integrated Prometheus for real-time monitoring.
-                    Strengthened security with Azure Key Vault, ensuring compliance with industry standards.</div>
+                  <div class="row g-0">
+                    <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                      <div class="m-4 mt-md-2">
+                        <p>Built scalable Identity and Access Management (IAM) microservices for Honeywell Forge using NodeJS, designing and implementing robust authentication and authorization workflows that supported enterprise-grade multi-tenant environments with 95%+ unit test coverage across all service modules.</p>
+                        <p>Implemented Prometheus-based monitoring within the login deployment pipeline to enable real-time service metrics, alerting, and production observability. Improved database performance by instrumenting login flows, policy access patterns, and query latency metrics, identifying slow-running queries and optimizing them to increase overall query efficiency by 40%. Resolved 50+ security vulnerabilities identified through BlackduckHub and Coverity static analysis, while driving code quality coverage to 95% via SonarQube enforcement across the codebase.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-left" data-aos-delay="200">
+                      <img class="img-fluid" src="Honeywell.png" width="450" height="400" />
+                    </div>
+                  </div>
+                  <div data-aos="fade-up" data-aos-delay="300">
+                    <p>Contributed to Agile delivery through active participation in sprint planning, daily stand-ups, and retrospectives, consistently delivering 96% of sprint commitments while collaborating with cross-functional teams to align engineering priorities with product roadmap goals.</p>
+                  </div>
                 </div>
               </div>
 
@@ -193,10 +210,16 @@
                 </div>
                 <div class="timeline-body px-4 pb-4">
                   <div class="text-muted text-small mb-3">May, 2021 - July, 2021</div>
-                  <div>Executed in-depth data analysis on real-world customer data from AHUs, contributing to energy
-                    optimization strategies within Honeywell's Building Technologies division. Developed predictive
-                    models using multivariate time series analysis and implemented control system-based optimizations,
-                    improving operational efficiency for 10+ enterprise clients.</div>
+                  <div class="row g-0">
+                    <div class="col-md-6" data-aos="fade-right" data-aos-delay="100">
+                      <img class="img-fluid" src="internship1.png" width="450" height="400" />
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="200">
+                      <div class="m-4 mt-md-2">
+                        <p>Executed in-depth data analysis on real-world customer data from AHUs, contributing to energy optimization strategies within Honeywell's Building Technologies division. Developed predictive models using multivariate time series analysis and implemented control system-based optimizations, improving operational efficiency for 10+ enterprise clients.</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
